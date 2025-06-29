@@ -1,7 +1,10 @@
-# 🔴 RedStream - A Netflix Streaming App
+# 🔴 RedStream - A Movie Streaming App
 
 - Create React App  
 - Configure Tailwind CSS
+- Header
+- Login Form
+- Sign-up Form
 
 ---
 
