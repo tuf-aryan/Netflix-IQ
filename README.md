@@ -1,4 +1,4 @@
-# 🔴 RedStream - A Movie Streaming App
+# 🔴 Netflix-IQ : A Movie Streaming App with a Ai Searching power
 
 - Create React App  
 - Configure Tailwind CSS
@@ -22,6 +22,6 @@
     - Movie suggestion
     - Movie list (N items)
 
-- **RedStream GPT**
+- **Netflix-IQ GPT**
   - Search bar
   - Movie suggestion
