@@ -3,8 +3,16 @@
 - Create React App  
 - Configure Tailwind CSS
 - Header
+- Routing
 - Login Form
 - Sign-up Form
+- Form Validation
+- useRef hook
+- Firebase Setup
+- Deploying our app to production
+- Create sign in with Google because email/password feature not working on firebase
+- Create a Redux Store with userSlice
+
 
 ---
 
