@@ -4,12 +4,12 @@ import { checkValidation } from "../utils/validate";
 import { GoogleAuthProvider, signInWithPopup } from "firebase/auth";
 import { app, auth } from "../utils/firebase";
 import { useDispatch } from "react-redux";
-import { useNavigate } from "react-router";
 import { addUser } from "../utils/userSlice";
+import { BODY_LOGO} from "../utils/constants";
+
 
 const Login = () => {
   const dispatch = useDispatch();
-  const navigate = useNavigate();
 
   const [isSignInForm, setIsSignInForm] = useState(true);
   const [errorMessage, setErrorMessage] = useState(null);
@@ -33,7 +33,6 @@ const Login = () => {
             uid: auth.currentUser.uid,
           })
         );
-        navigate("/browse");
       })
       .catch((error) => {
         const errorCode = error.code;
@@ -70,7 +69,7 @@ const Login = () => {
       <Header />
       <div className="absolute">
         <img
-          src="https://assets.nflxext.com/ffe/siteui/vlv3/75b0ed49-75ab-4a63-bd45-37bc2c95cb73/web/IN-en-20250623-TRIFECTA-perspective_ae5833b7-6ce5-4e88-853e-014f38c506f1_large.jpg"
+          src={BODY_LOGO}
           alt="logo"
         />
       </div>

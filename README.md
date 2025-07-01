@@ -13,6 +13,9 @@
 - Create sign in with Google because email/password feature not working on firebase
 - Create a Redux Store with userSlice
 - Implement Sign-out feature
+- BugFix: Access browse page from login and vice-versa
+- Unsubscirbed to the onAuthChanged Callback
+- Add HardCoded value to Constans files
 
 
 
