@@ -12,6 +12,8 @@
 - Deploying our app to production
 - Create sign in with Google because email/password feature not working on firebase
 - Create a Redux Store with userSlice
+- Implement Sign-out feature
+
 
 
 ---
