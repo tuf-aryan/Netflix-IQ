@@ -29,7 +29,10 @@
 - build Moive carts
 - found the Img url of TMDB
 - Also made the browse page amazing with tailwind css
-
+- Gpt Search Feature
+- Gpt Search Page
+- Gpt Search Bar
+- (Bonus) Multi Language Feature-in our App
 
 
 
