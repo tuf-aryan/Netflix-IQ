@@ -25,6 +25,12 @@
 - updata store with Trailer Video
 - Embedded Youtube Video
 - Make it autoplay & mute
+- Build Secondary Component
+- build Moive carts
+- found the Img url of TMDB
+- Also made the browse page amazing with tailwind css
+
+
 
 
 
