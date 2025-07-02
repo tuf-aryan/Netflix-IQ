@@ -16,6 +16,16 @@
 - BugFix: Access browse page from login and vice-versa
 - Unsubscirbed to the onAuthChanged Callback
 - Add HardCoded value to Constans files
+- Register for TMDB API create our app and get Access Token
+- succesfully api called 
+- Custom hook for now playing movies 
+- Create Movie slice
+- Plannig for Main container & Secondary Container
+- Fetch data for Trailer video
+- updata store with Trailer Video
+- Embedded Youtube Video
+- Make it autoplay & mute
+
 
 
 
