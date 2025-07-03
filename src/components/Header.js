@@ -80,11 +80,11 @@ const Header = () => {
             {showGptSearch ? "Homepage" : "GPT Search"}
           </button>
 
-          <h1 className="md:m-2 m-1 mt-2 p-1  flex items-center md:p-2 text-white md:font-bold bg-purple-950 rounded-lg">
+          <h1 className="md:m-2 mr-2 mt-2 p-1 h-16 md:h-12 flex items-center text-center md:p-2 text-white md:font-bold bg-purple-950 rounded-lg">
             {user?.name}
           </h1>
           <button
-            className="bg-purple-950 md:font-bold  w-24 h-12 mt-2 rounded-lg p-2 text-white"
+            className="bg-purple-950 md:font-bold h-16 md:h-12 w-24 mt-2 rounded-lg  text-white"
             onClick={handleClick}
           >
             Sign-out
