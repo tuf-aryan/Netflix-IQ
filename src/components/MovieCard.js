@@ -6,7 +6,7 @@ const MovieCard = ({ poster_path }) => {
   return (
     <div className="inline-block">
       
-      <img className="w-40 pr-4 h-[200px]" alt="Moviecard" src={IMG_URL + poster_path} />
+      <img className="md:w-40 w-32 pr-4 md:h-[200px] h-[150px]" alt="Moviecard" src={IMG_URL + poster_path} />
     </div>
   );
 };
