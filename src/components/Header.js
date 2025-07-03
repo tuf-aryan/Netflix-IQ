@@ -59,10 +59,10 @@ const Header = () => {
       <img className="w-36 mx-auto md:mx-0" src={LOGO} alt="logo" />
 
       {user && (
-        <div className="flex justify-evenly">
+        <div className="flex justify-between">
           {showGptSearch && (
             <select
-              className="bg-purple-950 p-1 h-12 mt-2 text-white font-bold  rounded-lg"
+              className="bg-purple-950 truncate p-1 h-16 mt-2 w-16 md:w-20 text-white font-bold  rounded-lg"
               onChange={handleLanguageChange}
             >
               {LANG_SUPPORTED.map((lang) => (
@@ -74,17 +74,17 @@ const Header = () => {
           )}
 
           <button
-            className="m-2 text-white p-2  md:font-bold t bg-purple-950 rounded-lg"
+            className="m-2 text-white p-1 truncate h-16 md:font-bold t bg-purple-950 rounded-lg"
             onClick={gptSearchClick}
           >
             {showGptSearch ? "Homepage" : "GPT Search"}
           </button>
 
-          <h1 className="md:m-2 mr-2 mt-2 p-1 h-16 md:h-12 flex items-center text-center md:p-2 text-white md:font-bold bg-purple-950 rounded-lg">
+          <h1 className="md:m-2 mr-2 mt-2 p-1 h-16 sm:h-12 truncate md:h-16 flex items-center text-center md:p-2 text-white md:font-bold bg-purple-950 rounded-lg">
             {user?.name}
           </h1>
           <button
-            className="bg-purple-950 md:font-bold h-16 md:h-12 w-24 mt-2 rounded-lg  text-white"
+            className="bg-purple-950 md:font-bold h-16 p-2 sm:h-12 truncate md:h-16 mt-2 rounded-lg  text-white"
             onClick={handleClick}
           >
             Sign-out
